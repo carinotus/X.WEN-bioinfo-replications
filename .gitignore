@@ -1,0 +1,98 @@
+# ==================== #
+# 操作系统生成的文件 #
+# ==================== #
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# ==================== #
+# 编辑器/IDE文件 #
+# ==================== #
+# RStudio
+.Rproj.user/
+*.Rproj
+
+# VSCode
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# ==================== #
+# R 语言相关 #
+# ==================== #
+# 历史记录
+.Rhistory
+# 工作空间数据
+.RData
+# 临时文件
+.Rapp.history
+# 会话脚本
+*.Rds
+
+# ==================== #
+# Python 相关 #
+# ==================== #
+# 虚拟环境目录 (永远不要提交！)
+venv/
+.env/
+.envrc
+
+# 字节编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 安装包
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ==================== #
+# 生物信息学数据文件 #
+# ==================== #
+# 原始测序数据
+*.fastq
+*.fq
+*.fq.gz
+*.fastq.gz
+*.bam
+*.bai
+*.sam
+*.cram
+
+# 大型矩阵/分析文件
+*.h5
+*.h5ad
+*.loom
+*.rds # 如果文件很大，也应该忽略，只保留生成它的代码
+*.mtx
+
+# 其他大型二进制文件
+*.pdf # 【注意：小图可以传，几十Mb的大报告就不要传了】
+*.zip
+*.tar
+*.gz
+
+# ==================== #
+# 日志与临时文件 #
+# ==================== #
+*.log
+*.aux
+*.out
+*.toc
+*.cache
+
+# 特定项目的临时/中间文件
+*/temp/
+*/tmp/
